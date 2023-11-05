@@ -1,0 +1,16 @@
+$primary-color: navy;
+
+h1 {
+    color: $primary-color;
+    &.highlight {
+        background-color: yellow;
+    }
+}
+
+p {
+    font-size: 16px;
+
+    span {
+        text-decoration: underline;
+    }
+}
