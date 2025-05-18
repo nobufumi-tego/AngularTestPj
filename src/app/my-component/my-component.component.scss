@@ -14,3 +14,21 @@ p {
         text-decoration: underline;
     }
 }
+
+:host {
+  display: block;
+  padding: 20px;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.my-box {
+  background-color: #fff9c4;
+  border: 1px solid #fbc02d;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
